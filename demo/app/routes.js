@@ -16,6 +16,7 @@ import Menus from 'containers/Menus';
 import Sliders from 'containers/Sliders';
 import Tables from 'containers/Tables';
 import Tooltips from 'containers/Tooltips';
+import Layout from 'containers/Layout';
 
 const routes = (
   <Route name="app" path="/" component={App}>
@@ -34,6 +35,7 @@ const routes = (
     <Route path="/sliders" component={Sliders} />
     <Route path="/tables" component={Tables} />
     <Route path="/tooltips" component={Tooltips} />
+    <Route path="/layout" component={Layout} />
   </Route>
 );
 

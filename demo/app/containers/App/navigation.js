@@ -20,6 +20,10 @@ export const sideNavLinks = [
     label: 'Dialogs',
   },
   {
+    to: '/layout',
+    label: 'Layout',
+  },
+  {
     to: '/lists',
     label: 'Lists',
   },
